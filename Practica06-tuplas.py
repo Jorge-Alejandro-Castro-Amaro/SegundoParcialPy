@@ -19,3 +19,8 @@ print("La cantidad de elementos de la tupla es: ", len(tupla))
 print("La cantidad de veces que se repite el numero 2 es: ", tupla.count(2))
 print("El indice del numero 3 es: ", tupla.index(3))
 
+datos = ("Juan", 20, True)
+
+una_tupla = (5)
+print(datos)
+print(una_tupla)
