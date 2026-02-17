@@ -10,7 +10,7 @@ alumno1 = {
     "carrera": ""
 }
 
-icco201={alumno1, alumno1, alumno1, alumno1}
+ico201={alumno1, alumno1, alumno1, alumno1}
 
 print(type(alumno))
 print(alumno)

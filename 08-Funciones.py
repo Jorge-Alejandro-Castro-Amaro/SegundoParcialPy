@@ -38,6 +38,7 @@ c = a + b
 
 
 def multiplicacion(a,b):
+    #x = a, y = b
     return a*b
 
-print("La multiplicacion es: ",multiplicacion(6, 7 ))
+print("La smultiplicacion es: ",multiplicacion(6, 7 ))
