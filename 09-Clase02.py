@@ -56,7 +56,12 @@ def main():
             obj.division()
             obj.imprimir()
             input()
-        elif op == 5:
+        if op == 5:
+            obj.pedirNumeros()
+            obj.division()
+            obj.imprimir()
+            input()    
+        elif op == 6:
             print("Saliendo del programa...")
         else:
             print("Opción inválida, intente de nuevo.")
