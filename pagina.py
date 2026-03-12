@@ -3,7 +3,7 @@ from tkinter import messagebox
 from PIL import Image, ImageTk
 
 # Precio unitario del boleto
-boleto = 14
+boleto = 12
 
 def procesar():
     try:
@@ -93,7 +93,7 @@ Tk.Checkbutton(frame_izq, text="Pago con tarjeta CINECO", fg="white", variable=v
 frame_der = Tk.Frame(ventana, bg="#081A41", bd=5)
 frame_der.pack(side="right", padx=20, pady=20)
 
-Tk.Label(frame_der, text="Total a Pagar", fg="white", bg="#081A41").grid(row=0, column=0, padx=10, pady=5)
+Tk.Label(frame_der, text="Total a Pagar", fg="white", bg="black").grid(row=0, column=0, padx=10, pady=5)
 total_var = Tk.StringVar()
 entry_total = Tk.Entry(frame_der, textvariable=total_var, state="readonly")
 entry_total.grid(row=0, column=1, padx=10, pady=5)
